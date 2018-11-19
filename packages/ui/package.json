@@ -1,0 +1,36 @@
+{
+  "name": "@quipped/ui",
+  "version": "0.1.0",
+  "description": "UI Components for Quipped",
+  "module": "dist/esm/quipped.js",
+  "main": "dist/quipped.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@stencil/core": "~0.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natemoo-re/quipped.git"
+  },
+  "author": {
+    "name": "Nate Moore",
+    "email": "nate@natemoo.re",
+    "url":
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/natemoo-re/quipped/issues"
+  },
+  "homepage": "https://github.com/natemoo-re/quipped"
+}
